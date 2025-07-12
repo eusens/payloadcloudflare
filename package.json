@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "vercel-build": "next build",
     "build:cloudflare": "next build && npx @cloudflare/next-on-pages",
     "preview": "next-on-pages preview",
     "postbuild": "next-sitemap --config next-sitemap.config.cjs",
